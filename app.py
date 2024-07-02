@@ -17,7 +17,7 @@ def hello_world():
 
 @app.route('/test')
 def test():
-    return 'My First Flask Test Function v1'
+    return 'My First Flask Test Function v2'
 
 
 @app.route('/widgets')
