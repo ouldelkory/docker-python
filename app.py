@@ -15,6 +15,10 @@ else:
 def hello_world():
     return 'Hello, My Docker 20240702 13:46'
 
+@app.route('/test')
+def test():
+    return 'My First Flask Test Function v1'
+
 
 @app.route('/widgets')
 def get_widgets():
